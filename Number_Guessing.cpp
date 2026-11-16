@@ -19,7 +19,6 @@ int main(){
             
         }while(guess > 100 || guess <= 0); //"Looping akan MENGULANG kalau syaratnya BENAR (TRUE), dan akan BERHENTI kalau syaratnya SALAH (FALSE)."
                                            // lalu pakai ATAU, bukan DAN supaya salah 1 aja langsung keulang
-        coba++;
 
         if(guess > computer){
             std::cout << "TERLALU BESAR!!, ";
