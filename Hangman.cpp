@@ -36,7 +36,7 @@ int main(){
             hangman(error);
         }
     }
-    
+    system("pause");
     return 0;
 }
 void player_check(std::string &posisi, char player, std::string tebak, int &error){

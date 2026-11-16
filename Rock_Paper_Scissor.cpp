@@ -96,4 +96,5 @@ void winner(char player, int computer){
             std::cout << "********************************\n";
         }
     }
+    system("pause");
 }

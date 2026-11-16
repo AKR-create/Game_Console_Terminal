@@ -36,7 +36,7 @@ int main(){
             continue;
         }
     }
-    
+    system("pause");
     return 0;
 }
 void game_board(std::string *space){

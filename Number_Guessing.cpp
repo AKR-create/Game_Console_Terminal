@@ -1,4 +1,4 @@
-#include <Iostream>
+#include <iostream>
 #include <ctime>
 int main(){
     srand(time(NULL));
@@ -35,4 +35,5 @@ int main(){
             running = false;
         }
     }
+    system("pause");
 }
